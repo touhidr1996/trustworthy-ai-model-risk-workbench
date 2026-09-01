@@ -1,0 +1,7 @@
+seed: 42
+records: 12000
+temporal_holdout_fraction: 0.25
+decision_threshold: 0.50
+review_band: [0.40, 0.60]
+psi_warning: 0.20
+max_equal_opportunity_gap: 0.10

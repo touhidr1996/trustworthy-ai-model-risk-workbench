@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this portfolio simulation, please cite it as below."
+title: "Trustworthy AI Model Risk Workbench"
+type: software
+authors:
+  - family-names: Rahman
+    given-names: Md. Touhidur
+repository-code: "https://github.com/touhidr1996/trustworthy-ai-model-risk-workbench"
+license: MIT
+version: 0.1.0
+date-released: 2026-09-01
