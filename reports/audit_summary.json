@@ -1,0 +1,43 @@
+{
+  "split": {
+    "train_rows": 8500,
+    "test_rows": 3500,
+    "train_end_month": 16,
+    "test_start_month": 17
+  },
+  "selected_logistic_baseline": {
+    "roc_auc": 0.6828929057102551,
+    "brier": 0.18651445679083034,
+    "log_loss": 0.5559424003534295,
+    "ece": 0.007638274287188402
+  },
+  "rejected_calibrated_boosting": {
+    "roc_auc": 0.6621669388559155,
+    "brier": 0.19098122304393841,
+    "log_loss": 0.5666054327551203,
+    "ece": 0.01435505686823682
+  },
+  "model_selection": {
+    "selected": "logistic_regression",
+    "reason": "Lower Brier score, log loss, and ECE on the untouched temporal holdout"
+  },
+  "fairness": {
+    "equal_opportunity_gap": 0.016460938474727016,
+    "false_positive_rate_gap": 0.005020141933823601
+  },
+  "selective_prediction": {
+    "coverage": 0.8377142857142857,
+    "review_rate": 0.16228571428571426,
+    "decided_error_rate": 0.23635743519781718
+  },
+  "drift": {
+    "debt_ratio_psi": 0.0351302801244799,
+    "warning_threshold": 0.2
+  },
+  "robustness": {
+    "income_plus_10k": {
+      "mean_absolute_probability_change": 0.014994844338410508,
+      "p95_absolute_probability_change": 0.020229213574539193
+    }
+  }
+}
